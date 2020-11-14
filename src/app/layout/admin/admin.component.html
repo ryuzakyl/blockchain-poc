@@ -18,7 +18,7 @@
             <i class="ti-menu"></i>
           </a>
           <a [routerLink]="['/']">
-            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo"/>
+            <img class="img-fluid" src="assets/images/smart-deed-logo.png" alt="Theme-Logo"/>
           </a>
           <a (click)="onMobileMenu()" class="mobile-options">
             <i class="ti-more"></i>
@@ -31,7 +31,7 @@
               <li>
                 <div class="sidebar_toggle"><a href="javascript:;" (click)="toggleOpened()"><i class="ti-menu f-18"></i></a></div>
               </li>
-              <li>
+              <!-- <li>
                 <a href="javascript:;" appToggleFullScreen>
                   <i class="ti-fullscreen"></i>
                 </a>
@@ -153,7 +153,7 @@
                     </div>
                   </li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
             <ul [@mobileMenuTop]="isCollapsedMobile" class="nav-right" [ngClass]="isCollapsedMobile">
               <li class="header-notification lng-dropdown">

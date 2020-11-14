@@ -35,6 +35,13 @@ const MENUITEMS = [
     label: 'Navigation',
     main: [
       {
+        state: 'wizard',
+        short_label: 'W',
+        name: 'Wizard',
+        type: 'link',
+        icon: 'ti-home'
+      },
+      {
         state: 'dashboard',
         short_label: 'D',
         name: 'Dashboard',
@@ -180,15 +187,15 @@ const MENUITEMS = [
       }
     ]
   }, {
-    label: 'Support',
+    label: 'Contact',
     main: [
       {
-        state: 'Upgrade To Pro',
+        state: 'Our website',
         short_label: 'U',
-        external: 'https://codedthemes.com/item/guru-able-admin-template/',
-        name: 'Upgrade To Pro',
+        external: 'http://smartdeed.io/',
+        name: 'Our website',
         type: 'external',
-        icon: 'ti-layout-list-post',
+        icon: 'ti-link',
         target: true
       }
     ]
