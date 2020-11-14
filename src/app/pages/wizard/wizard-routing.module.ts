@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {DashboardDefaultComponent} from './dashboard-default.component';
+import {DashboardDefaultComponent} from './wizard.component';
 
 const routes: Routes = [
   {

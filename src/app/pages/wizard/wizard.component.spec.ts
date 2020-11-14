@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DashboardDefaultComponent } from './dashboard-default.component';
+import { DashboardDefaultComponent } from './wizard.component';
 
 describe('DashboardDefaultComponent', () => {
   let component: DashboardDefaultComponent;

@@ -14,7 +14,7 @@ const routes: Routes = [
         pathMatch: 'full'
       }, {
         path: 'wizard',
-        loadChildren: () => import('./pages/wizard/dashboard-default.module').then(m => m.WizardModule)
+        loadChildren: () => import('./pages/wizard/wizard.module').then(m => m.WizardModule)
       }, {
         path: 'dashboard',
         loadChildren: () => import('./pages/dashboard/dashboard-default/dashboard-default.module').then(m => m.DashboardDefaultModule)

@@ -12,10 +12,10 @@ declare const AmCharts: any;
 declare const $: any;
 
 @Component({
-  selector: 'app-dashboard-default',
-  templateUrl: './dashboard-default.component.html',
+  selector: 'app-wizard',
+  templateUrl: './wizard.component.html',
   styleUrls: [
-    './dashboard-default.component.scss',
+    './wizard.component.scss',
     '../../../assets/icon/svg-animated/svg-weather.css'
   ]
 })
